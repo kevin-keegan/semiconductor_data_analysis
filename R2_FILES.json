@@ -1,0 +1,96 @@
+{
+  "bucket": "epa-data",
+  "generated_at": "2026-10-02T16:15:46",
+  "files": [
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_07_02.nc",
+      "repo_relative": "data/measurement/Day_2024_07_02.nc",
+      "r2_key": "measurement/Day_2024_07_02.nc",
+      "size_bytes": 829417369,
+      "size_mb": 790.99,
+      "sha256": "b629c532f3c08125ed4abd02c0dff95c2f8da186ef108cbb8c51bc79d3777a1e",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_07_05.nc",
+      "repo_relative": "data/measurement/Day_2024_07_05.nc",
+      "r2_key": "measurement/Day_2024_07_05.nc",
+      "size_bytes": 833563333,
+      "size_mb": 794.95,
+      "sha256": "c5a8a0c7a4c67215b759bbd2e577fb473a7e19318b6e247945d0d13d7835c9d0",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_07_09.nc",
+      "repo_relative": "data/measurement/Day_2024_07_09.nc",
+      "r2_key": "measurement/Day_2024_07_09.nc",
+      "size_bytes": 817503133,
+      "size_mb": 779.63,
+      "sha256": "82b0b7f02110fc543fc94937637853d0a5f133770fd7850adb272b657868c050",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_07_11.nc",
+      "repo_relative": "data/measurement/Day_2024_07_11.nc",
+      "r2_key": "measurement/Day_2024_07_11.nc",
+      "size_bytes": 824221762,
+      "size_mb": 786.04,
+      "sha256": "49eef77dc7b082bd5c5085ec6ffe12f1ebe4bc4e9e5e9b8713fb7d945aec3888",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_07_19.nc",
+      "repo_relative": "data/measurement/Day_2024_07_19.nc",
+      "r2_key": "measurement/Day_2024_07_19.nc",
+      "size_bytes": 832144108,
+      "size_mb": 793.59,
+      "sha256": "fa2365b80357dd7d28c7d37d7fbf9381ebe486c5a57e53947d1d2e57fed00ead",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_08_01.nc",
+      "repo_relative": "data/measurement/Day_2024_08_01.nc",
+      "r2_key": "measurement/Day_2024_08_01.nc",
+      "size_bytes": 832648412,
+      "size_mb": 794.08,
+      "sha256": "efbccf7bdf662a0cfd1d172b22b38ef18ddf638e8cf40b246ded62551e7eb177",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_08_05.nc",
+      "repo_relative": "data/measurement/Day_2024_08_05.nc",
+      "r2_key": "measurement/Day_2024_08_05.nc",
+      "size_bytes": 476308655,
+      "size_mb": 454.24,
+      "sha256": "513a7cf9eca06081851ac97b2c3b12eb57b3cb081a7be1aed863c87a693bf0f8",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_08_07.nc",
+      "repo_relative": "data/measurement/Day_2024_08_07.nc",
+      "r2_key": "measurement/Day_2024_08_07.nc",
+      "size_bytes": 823268300,
+      "size_mb": 785.13,
+      "sha256": "64daaee1c80fed2ca3fa3dc37838a5b0a5edf17a03e1a6800a285bc4c44aac98",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_08_21.nc",
+      "repo_relative": "data/measurement/Day_2024_08_21.nc",
+      "r2_key": "measurement/Day_2024_08_21.nc",
+      "size_bytes": 816255663,
+      "size_mb": 778.44,
+      "sha256": "d83e7fbf6591a938c926cc0334a960c75c2aa4f14f78f58a014a2963a194450a",
+      "reason": "raw OES / GitHub size safety"
+    },
+    {
+      "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\data\\measurement\\Day_2024_08_22.nc",
+      "repo_relative": "data/measurement/Day_2024_08_22.nc",
+      "r2_key": "measurement/Day_2024_08_22.nc",
+      "size_bytes": 817952035,
+      "size_mb": 780.06,
+      "sha256": "13cdf5db02c2eed32cf7adfc0239e0e039507fdd26b737b381347f9f19049f4a",
+      "reason": "raw OES / GitHub size safety"
+    }
+  ]
+}

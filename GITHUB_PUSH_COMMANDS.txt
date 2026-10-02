@@ -1,0 +1,9 @@
+# Run only after CHECK_DEPLOY_READY.py and Cloudflare/R2 setup.
+
+git init
+git add .
+git status
+git commit -m "Initial EPA Cloudflare deployment"
+git branch -M main
+git remote add origin https://github.com/YOUR_GITHUB_ID/EPA-Etch-Process-Analysis.git
+git push -u origin main

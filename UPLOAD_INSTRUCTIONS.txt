@@ -1,0 +1,26 @@
+EPA GitHub 웹 업로드용 폴더
+
+GitHub 저장소에서:
+1. 'uploading an existing file' 클릭
+2. 이 폴더(EPA_GitHub_UPLOAD)를 연다
+3. 폴더 안의 모든 파일/폴더를 선택해서 업로드한다
+
+중요:
+- EPA_GitHub_UPLOAD 폴더 자체를 ZIP으로 올리지 마세요.
+- 이 폴더 안의 실제 파일/폴더들이 GitHub 저장소 루트에 보여야 합니다.
+- data/measurement/Day_*.nc 원본 OES 파일은 의도적으로 제외되었습니다.
+- 그 파일들은 Cloudflare R2에 올릴 예정입니다.
+
+GitHub 저장소 루트에서 보여야 하는 대표 항목:
+- backend/
+- frontend/
+- data/
+- src/
+- Dockerfile
+- wrangler.jsonc
+- package.json
+- requirements.txt
+- README.md
+- .gitignore
+- .dockerignore
+- R2_FILES.json

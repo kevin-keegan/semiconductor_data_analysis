@@ -1,0 +1,910 @@
+{
+  "generated_at": "2026-10-02T16:31:21",
+  "source": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\EPA_GitHub_Cloudflare",
+  "target": "C:\\Users\\jaese\\BOSCH_Etch_Web_Clean\\EPA_GitHub_UPLOAD",
+  "copied_count": 225,
+  "excluded_count": 0,
+  "copied": [
+    {
+      "path": ".dockerignore",
+      "size_mb": 0.0001
+    },
+    {
+      "path": ".env.example",
+      "size_mb": 0.0001
+    },
+    {
+      "path": ".gitignore",
+      "size_mb": 0.0003
+    },
+    {
+      "path": "CHECK_DEPLOY_READY.py",
+      "size_mb": 0.0015
+    },
+    {
+      "path": "container-entrypoint.sh",
+      "size_mb": 0.0013
+    },
+    {
+      "path": "data_paths.json",
+      "size_mb": 0.0002
+    },
+    {
+      "path": "DEPLOY_PREP_SUMMARY.json",
+      "size_mb": 0.0002
+    },
+    {
+      "path": "Dockerfile",
+      "size_mb": 0.0013
+    },
+    {
+      "path": "GITHUB_PUSH_COMMANDS.txt",
+      "size_mb": 0.0003
+    },
+    {
+      "path": "package.json",
+      "size_mb": 0.0004
+    },
+    {
+      "path": "R2_FILES.json",
+      "size_mb": 0.004
+    },
+    {
+      "path": "README.md",
+      "size_mb": 0.0031
+    },
+    {
+      "path": "requirements.txt",
+      "size_mb": 0.0002
+    },
+    {
+      "path": "UPLOAD_R2.ps1",
+      "size_mb": 0.0013
+    },
+    {
+      "path": "wrangler.jsonc",
+      "size_mb": 0.0008
+    },
+    {
+      "path": "backend/main.py",
+      "size_mb": 0.008
+    },
+    {
+      "path": "frontend/app.js",
+      "size_mb": 0.0809
+    },
+    {
+      "path": "frontend/charts.js",
+      "size_mb": 0.0018
+    },
+    {
+      "path": "frontend/index.html",
+      "size_mb": 0.0018
+    },
+    {
+      "path": "frontend/style.css",
+      "size_mb": 0.0478
+    },
+    {
+      "path": "src/index.js",
+      "size_mb": 0.0007
+    },
+    {
+      "path": "backend/services/cache_service.py",
+      "size_mb": 0.0014
+    },
+    {
+      "path": "backend/services/competition_metadata_service.py",
+      "size_mb": 0.0043
+    },
+    {
+      "path": "backend/services/competition_model_service.py",
+      "size_mb": 0.0011
+    },
+    {
+      "path": "backend/services/data_studio_service.py",
+      "size_mb": 0.0148
+    },
+    {
+      "path": "backend/services/diagnostic_service.py",
+      "size_mb": 0.0025
+    },
+    {
+      "path": "backend/services/hierarchical_prediction_service.py",
+      "size_mb": 0.0011
+    },
+    {
+      "path": "backend/services/measurement_service.py",
+      "size_mb": 0.012
+    },
+    {
+      "path": "backend/services/nc_service.py",
+      "size_mb": 0.0066
+    },
+    {
+      "path": "backend/services/prediction_service.py",
+      "size_mb": 0.0008
+    },
+    {
+      "path": "backend/services/root_cause_service.py",
+      "size_mb": 0.0168
+    },
+    {
+      "path": "backend/services/scenario_service.py",
+      "size_mb": 0.0166
+    },
+    {
+      "path": "backend/services/__init__.py",
+      "size_mb": 0.0
+    },
+    {
+      "path": "data/cache_v07/evidence.json",
+      "size_mb": 0.1443
+    },
+    {
+      "path": "data/cache_v07/manifest.json",
+      "size_mb": 0.0007
+    },
+    {
+      "path": "data/cache_v07/prediction.json",
+      "size_mb": 0.0466
+    },
+    {
+      "path": "data/cache_v07/root_cause_process_features_v1_6_3.json",
+      "size_mb": 0.3369
+    },
+    {
+      "path": "data/competition_v1/competition_model_v1.json",
+      "size_mb": 1.7776
+    },
+    {
+      "path": "data/measurement/Dictionary_OES.nc",
+      "size_mb": 0.0858
+    },
+    {
+      "path": "data/measurement/Dictionary_process.nc",
+      "size_mb": 0.084
+    },
+    {
+      "path": "data/measurement/Lot_status.xlsx",
+      "size_mb": 0.0114
+    },
+    {
+      "path": "data/measurement/oes_line_reference.csv",
+      "size_mb": 0.0
+    },
+    {
+      "path": "data/measurement/Process_data.nc",
+      "size_mb": 8.4109
+    },
+    {
+      "path": "data/measurement/Readme.pdf",
+      "size_mb": 0.343
+    },
+    {
+      "path": "data/measurement/README_OES_KO.txt",
+      "size_mb": 0.0003
+    },
+    {
+      "path": "data/measurement/Si_Oxide_etch_89_points.csv",
+      "size_mb": 0.6177
+    },
+    {
+      "path": "data/measurement/Si_Oxide_etch_9_points.csv",
+      "size_mb": 0.0448
+    },
+    {
+      "path": "data/measurement/Wafer_layout.pdf",
+      "size_mb": 0.0243
+    },
+    {
+      "path": "data/model_v09/hierarchical_v09.json",
+      "size_mb": 2.219
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_01.json",
+      "size_mb": 0.2102
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_02.json",
+      "size_mb": 0.2155
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_03.json",
+      "size_mb": 0.2104
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_04.json",
+      "size_mb": 0.211
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_05.json",
+      "size_mb": 0.2147
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_06.json",
+      "size_mb": 0.2113
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_08.json",
+      "size_mb": 0.214
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_09.json",
+      "size_mb": 0.2098
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-02_10.json",
+      "size_mb": 0.2114
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_01.json",
+      "size_mb": 0.214
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_02.json",
+      "size_mb": 0.2148
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_03.json",
+      "size_mb": 0.2158
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_04.json",
+      "size_mb": 0.2074
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_05.json",
+      "size_mb": 0.214
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_06.json",
+      "size_mb": 0.2143
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_07.json",
+      "size_mb": 0.2117
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_08.json",
+      "size_mb": 0.2155
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_09.json",
+      "size_mb": 0.2103
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-05_10.json",
+      "size_mb": 0.213
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_01.json",
+      "size_mb": 0.2098
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_02.json",
+      "size_mb": 0.2141
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_03.json",
+      "size_mb": 0.2122
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_04.json",
+      "size_mb": 0.2105
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_05.json",
+      "size_mb": 0.216
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_06.json",
+      "size_mb": 0.2101
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_07.json",
+      "size_mb": 0.2096
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_08.json",
+      "size_mb": 0.2094
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_09.json",
+      "size_mb": 0.2109
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-09_10.json",
+      "size_mb": 0.2132
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_01.json",
+      "size_mb": 0.2102
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_02.json",
+      "size_mb": 0.2091
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_03.json",
+      "size_mb": 0.2063
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_04.json",
+      "size_mb": 0.2113
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_05.json",
+      "size_mb": 0.2069
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_06.json",
+      "size_mb": 0.2131
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_07.json",
+      "size_mb": 0.2125
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_08.json",
+      "size_mb": 0.2164
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_09.json",
+      "size_mb": 0.217
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-11_10.json",
+      "size_mb": 0.2076
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_01.json",
+      "size_mb": 0.2161
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_02.json",
+      "size_mb": 0.2071
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_03.json",
+      "size_mb": 0.2128
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_04.json",
+      "size_mb": 0.2086
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_05.json",
+      "size_mb": 0.2143
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_06.json",
+      "size_mb": 0.2145
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_07.json",
+      "size_mb": 0.2148
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_08.json",
+      "size_mb": 0.2111
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_09.json",
+      "size_mb": 0.2067
+    },
+    {
+      "path": "data/cache_v07/oes/2024-07-19_10.json",
+      "size_mb": 0.2126
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_01.json",
+      "size_mb": 0.2155
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_02.json",
+      "size_mb": 0.2118
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_03.json",
+      "size_mb": 0.2112
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_04.json",
+      "size_mb": 0.213
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_05.json",
+      "size_mb": 0.2141
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_06.json",
+      "size_mb": 0.2124
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_07.json",
+      "size_mb": 0.2142
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_08.json",
+      "size_mb": 0.2152
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_09.json",
+      "size_mb": 0.2164
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-01_10.json",
+      "size_mb": 0.2069
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-05_01.json",
+      "size_mb": 0.2125
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-05_02.json",
+      "size_mb": 0.2127
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-05_03.json",
+      "size_mb": 0.2155
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-05_04.json",
+      "size_mb": 0.2127
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-05_05.json",
+      "size_mb": 0.2141
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-05_06.json",
+      "size_mb": 0.2137
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_01.json",
+      "size_mb": 0.2062
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_02.json",
+      "size_mb": 0.2076
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_03.json",
+      "size_mb": 0.2062
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_04.json",
+      "size_mb": 0.2132
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_05.json",
+      "size_mb": 0.2137
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_06.json",
+      "size_mb": 0.2134
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_07.json",
+      "size_mb": 0.2146
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_08.json",
+      "size_mb": 0.209
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_09.json",
+      "size_mb": 0.2122
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-07_10.json",
+      "size_mb": 0.2131
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_01.json",
+      "size_mb": 0.2096
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_02.json",
+      "size_mb": 0.209
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_03.json",
+      "size_mb": 0.2104
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_04.json",
+      "size_mb": 0.2082
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_05.json",
+      "size_mb": 0.2167
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_06.json",
+      "size_mb": 0.2127
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_07.json",
+      "size_mb": 0.2082
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_08.json",
+      "size_mb": 0.2102
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-21_10.json",
+      "size_mb": 0.2116
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-22_01.json",
+      "size_mb": 0.2071
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-22_02.json",
+      "size_mb": 0.2093
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-22_03.json",
+      "size_mb": 0.2093
+    },
+    {
+      "path": "data/cache_v07/oes/2024-08-22_04.json",
+      "size_mb": 0.2106
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_01.json",
+      "size_mb": 0.2567
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_02.json",
+      "size_mb": 0.2608
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_03.json",
+      "size_mb": 0.2577
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_04.json",
+      "size_mb": 0.257
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_05.json",
+      "size_mb": 0.2605
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_06.json",
+      "size_mb": 0.2573
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_08.json",
+      "size_mb": 0.2601
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_09.json",
+      "size_mb": 0.2578
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-02_10.json",
+      "size_mb": 0.2579
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_01.json",
+      "size_mb": 0.2578
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_02.json",
+      "size_mb": 0.2562
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_03.json",
+      "size_mb": 0.2563
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_04.json",
+      "size_mb": 0.2593
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_05.json",
+      "size_mb": 0.2572
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_06.json",
+      "size_mb": 0.2571
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_07.json",
+      "size_mb": 0.2567
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_08.json",
+      "size_mb": 0.2604
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_09.json",
+      "size_mb": 0.2565
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-05_10.json",
+      "size_mb": 0.2565
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_01.json",
+      "size_mb": 0.2702
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_02.json",
+      "size_mb": 0.2609
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_03.json",
+      "size_mb": 0.257
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_04.json",
+      "size_mb": 0.2561
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_05.json",
+      "size_mb": 0.263
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_06.json",
+      "size_mb": 0.2572
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_07.json",
+      "size_mb": 0.2568
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_08.json",
+      "size_mb": 0.2568
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_09.json",
+      "size_mb": 0.2601
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-09_10.json",
+      "size_mb": 0.2605
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_01.json",
+      "size_mb": 0.2559
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_02.json",
+      "size_mb": 0.2543
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_03.json",
+      "size_mb": 0.2536
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_04.json",
+      "size_mb": 0.2565
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_05.json",
+      "size_mb": 0.2536
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_06.json",
+      "size_mb": 0.2567
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_07.json",
+      "size_mb": 0.2606
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_08.json",
+      "size_mb": 0.2605
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_09.json",
+      "size_mb": 0.2728
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-11_10.json",
+      "size_mb": 0.2542
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_01.json",
+      "size_mb": 0.2529
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_02.json",
+      "size_mb": 0.2637
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_03.json",
+      "size_mb": 0.2568
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_04.json",
+      "size_mb": 0.2606
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_05.json",
+      "size_mb": 0.2573
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_06.json",
+      "size_mb": 0.2567
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_07.json",
+      "size_mb": 0.2565
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_08.json",
+      "size_mb": 0.2651
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_09.json",
+      "size_mb": 0.254
+    },
+    {
+      "path": "data/cache_v07/process/2024-07-19_10.json",
+      "size_mb": 0.2572
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_01.json",
+      "size_mb": 0.2597
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_02.json",
+      "size_mb": 0.2571
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_03.json",
+      "size_mb": 0.2568
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_04.json",
+      "size_mb": 0.2565
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_05.json",
+      "size_mb": 0.2573
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_06.json",
+      "size_mb": 0.2602
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_07.json",
+      "size_mb": 0.2608
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_08.json",
+      "size_mb": 0.257
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_09.json",
+      "size_mb": 0.2569
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-01_10.json",
+      "size_mb": 0.257
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-05_01.json",
+      "size_mb": 0.2567
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-05_02.json",
+      "size_mb": 0.2636
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-05_03.json",
+      "size_mb": 0.2609
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-05_04.json",
+      "size_mb": 0.2572
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-05_05.json",
+      "size_mb": 0.2574
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-05_06.json",
+      "size_mb": 0.2569
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_01.json",
+      "size_mb": 0.2598
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_02.json",
+      "size_mb": 0.2601
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_03.json",
+      "size_mb": 0.2608
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_04.json",
+      "size_mb": 0.2597
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_05.json",
+      "size_mb": 0.2574
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_06.json",
+      "size_mb": 0.2593
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_07.json",
+      "size_mb": 0.2568
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_08.json",
+      "size_mb": 0.1635
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_09.json",
+      "size_mb": 0.2575
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-07_10.json",
+      "size_mb": 0.2568
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_01.json",
+      "size_mb": 0.2565
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_02.json",
+      "size_mb": 0.2569
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_03.json",
+      "size_mb": 0.2574
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_04.json",
+      "size_mb": 0.257
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_05.json",
+      "size_mb": 0.2571
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_06.json",
+      "size_mb": 0.2602
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_07.json",
+      "size_mb": 0.2569
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_08.json",
+      "size_mb": 0.2673
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-21_10.json",
+      "size_mb": 0.2588
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-22_01.json",
+      "size_mb": 0.2535
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-22_02.json",
+      "size_mb": 0.2736
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-22_03.json",
+      "size_mb": 0.257
+    },
+    {
+      "path": "data/cache_v07/process/2024-08-22_04.json",
+      "size_mb": 0.2574
+    }
+  ],
+  "excluded": []
+}

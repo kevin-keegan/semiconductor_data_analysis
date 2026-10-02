@@ -1,0 +1,17 @@
+{
+  "name": "epa-etch-process-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EPA · Etch Process Analysis Cloudflare Container deployment",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "containers:list": "wrangler containers list"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "^0.0.29"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

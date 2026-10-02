@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node / Wrangler
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs
+*.log
+
+# Raw OES NetCDF stays in Cloudflare R2
+data/measurement/Day_*.nc
+
+# Never commit credentials
+.r2-secrets*

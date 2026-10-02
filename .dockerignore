@@ -1,0 +1,10 @@
+.git
+.github
+node_modules
+__pycache__
+*.pyc
+*.pyo
+.venv
+_step_backups
+EPA_GitHub_Cloudflare
+data/measurement/Day_*.nc

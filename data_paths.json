@@ -1,0 +1,5 @@
+{
+  "process_data": "/app/data/measurement/Process_data.nc",
+  "process_dictionary": "/app/data/measurement/Dictionary_process.nc",
+  "oes_dir": "/mnt/r2/measurement"
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "epa-etch-process-analysis",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-02",
+  "observability": {
+    "enabled": true
+  },
+  "containers": [
+    {
+      "class_name": "EpaContainer",
+      "scheduling_policy": "default",
+      "image": "./Dockerfile",
+      "instance_type": "standard-1",
+      "max_instances": 1,
+      "constraints": {
+        "regions": ["APAC"]
+      }
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "EPA_CONTAINER",
+        "class_name": "EpaContainer"
+      }
+    ]
+  },
+  "exports": {
+    "EpaContainer": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  },
+  "vars": {
+    "R2_BUCKET_NAME": "epa-data",
+    "R2_ACCOUNT_ID": "REPLACE_WITH_CLOUDFLARE_ACCOUNT_ID"
+  }
+}
