@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     tar \
     && rm -rf /var/lib/apt/lists/*
 
-# R2/tigrisfs is disabled for the first EPA cloud deployment.
 # The dashboard will start with GitHub-bundled data/cache only.
 # Raw OES R2 mounting will be added after R2 is enabled and tested.
 
