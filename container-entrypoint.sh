@@ -5,7 +5,8 @@ echo "[EPA] container starting"
 
 mkdir -p /mnt/r2 /app/data/measurement
 
-if [[ -n "${AWS_ACCESS_KEY_ID:-}" \
+if command -v tigrisfs >/dev/null 2>&1 \
+   && [[ -n "${AWS_ACCESS_KEY_ID:-}" \
    && -n "${AWS_SECRET_ACCESS_KEY:-}" \
    && -n "${R2_ACCOUNT_ID:-}" \
    && -n "${R2_BUCKET_NAME:-}" ]]; then
@@ -27,7 +28,7 @@ if [[ -n "${AWS_ACCESS_KEY_ID:-}" \
     sleep 0.5
   done
 else
-  echo "[EPA] R2 credentials not set; OES raw-data pages may be unavailable."
+  echo "[EPA] R2 mount disabled/not configured; using bundled data/cache only."
 fi
 
 python - <<'PY'
